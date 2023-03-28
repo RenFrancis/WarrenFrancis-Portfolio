@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #050510;
+}
+.wrapper{
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.container{
+    width: 100%;
+    padding: 50px 30px;
+    background-color: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+.shape-1{
+    height: 220px;
+    width: 220px;
+    background: linear-gradient(
+        #ffffff,
+        #ff66a6
+    );
+    border-radius: 50%;
+    position: absolute;
+    bottom: -100px;
+    left: -80px;
+    z-index: -1;
+}
+.shape-2{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(
+        #ffffff,
+        #edf4ff
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    right: -50px;
+    z-index: -1;
+}
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+h2{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 7px 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #0011ff;
+    box-shadow: 0 0 5px rgba(28,151,252,0.6);
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 75%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 65%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 60%;
+    }
+}
+#jQuery-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 30%;
+    }
+}
+
+#Attention-bar{
+    animation: Attention-fill 2s forwards;
+}
+@keyframes Attention-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#Photoshop-bar{
+    animation: Photoshop-fill 2s forwards;
+}
+@keyframes Photoshop-fill{
+    100%{
+        width: 95%;
+    }
+}
+
+#UR-bar{
+    animation: UR-fill 2s forwards;
+}
+@keyframes UR-fill{
+    100%{
+        width: 92%;
+    }
+}
+
+#Texture-bar{
+    animation: Texture-fill 2s forwards;
+}
+@keyframes Texture-fill{
+    100%{
+        width: 67%;
+    }
+}
+
+#Crowd-bar{
+    animation: Crowd-fill 2s forwards;
+}
+@keyframes Crowd-fill{
+    100%{
+        width: 98%;
+    }
+}
+
+#Communities-bar{
+    animation: Communities-fill 2s forwards;
+}
+@keyframes Communities-fill{
+    100%{
+        width: 95%;
+    }
+}
+
+#SM-bar{
+    animation: SM-fill 2s forwards;
+}
+@keyframes SM-fill{
+    100%{
+        width: 86%;
+    }
+}
+
+#Twitch-bar{
+    animation: Twitch-fill 2s forwards;
+}
+@keyframes Twitch-fill{
+    100%{
+        width: 97%;
+    }
+}
+
+
+#Cando-bar{
+    animation: Cando-fill 2s forwards;
+}
+@keyframes Cando-fill{
+    100%{
+        width: 100%;
+    }
+}
+
+#Japanese-bar{
+    animation: Japanese-fill 2s forwards;
+}
+@keyframes Japanese-fill{
+    100%{
+        width: 68%;
+    }
+}
+
+#Photography-bar{
+    animation: Photography-fill 2s forwards;
+}
+@keyframes Photography-fill{
+    100%{
+        width: 73%;
+    }
+}
+
+#Database-bar{
+    animation: Database-fill 2s forwards;
+}
+@keyframes Database-fill{
+    100%{
+        width: 96%;
+    }
+}
+
+#Dash-bar{
+    animation: Dash-fill 2s forwards;
+}
+@keyframes Dash-fill{
+    100%{
+        width: 74%;
+    }
+}
+
+#VSC-bar{
+    animation: VSC-fill 2s forwards;
+}
+@keyframes VSC-fill{
+    100%{
+        width: 87%;
+    }
+}
+
+#VFX-bar{
+    animation: VFX-fill 2s forwards;
+}
+@keyframes VFX-fill{
+    100%{
+        width: 71%;
+    }
+}
+
+#Video-bar{
+    animation: Video-fill 2s forwards;
+}
+@keyframes Video-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+
+#Sound-bar{
+    animation: Sound-fill 2s forwards;
+}
+@keyframes Sound-fill{
+    100%{
+        width: 50%;
+    }
+}
+
+#Bugs-bar{
+    animation: Bugs-fill 2s forwards;
+}
+@keyframes Bugs-fill{
+    100%{
+        width: 98%;
+    }
+}
